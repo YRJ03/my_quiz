@@ -1,0 +1,131 @@
+.app-container {
+  font-family: Arial, sans-serif;
+  text-align: center;
+  margin: 20px auto;
+  width: 60%;
+  max-width: 900px;
+}
+
+.start-screen,
+.quiz-screen,
+.result {
+  padding: 20px;
+  border-radius: 8px;
+  background-color: #f4f4f4;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+h1, h3 {
+  color: #333;
+}
+
+.start-btn, .finish-btn, .prev-btn, .next-btn, .restart-btn {
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+  border-radius: 5px;
+  font-size: 16px;
+  margin: 10px;
+}
+
+.start-btn:hover, .finish-btn:hover, .prev-btn:hover, .next-btn:hover, .restart-btn:hover {
+  background-color: #45a049;
+}
+
+.option-btn {
+  display: block;
+  width: 100%;
+  padding: 12px;
+  margin: 8px 0;
+  font-size: 16px;
+  cursor: pointer;
+  border: 2px solid #ddd;
+  border-radius: 5px;
+  background-color: white;
+}
+
+.option-btn:hover {
+  background-color: #f1f1f1;
+}
+
+/* Selected Option Styling */
+.option-btn.correct {
+  background-color: #4CAF50;
+  color: white;
+}
+
+.option-btn.incorrect {
+  background-color: #f44336;
+  color: white;
+}
+
+.timer {
+  font-size: 18px;
+  font-weight: bold;
+  margin: 20px 0;
+  color: #ff6f61;
+}
+
+.question-navigation {
+  margin-bottom: 20px;
+}
+
+.navigation-buttons {
+  margin-top: 20px;
+}
+
+.result {
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.result p {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.prev-btn, .next-btn {
+  display: inline-block;
+  margin: 5px;
+}
+
+.restart-btn {
+  margin-top: 20px;
+}
+
+button:disabled {
+  background-color: #ddd;
+  cursor: not-allowed;
+}
+
+.dev-box {
+  background-color: #f0f0f0;
+  padding: 20px;
+  border-radius: 10px;
+  text-align: center;
+  margin-top: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.dev-text {
+  font-size: 16px;
+  color: #333;
+}
+
+.dev-text a {
+  color: #007bff;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.dev-text a:hover {
+  text-decoration: underline;
+}
+
+.dev-text span {
+  font-size: 20px;
+  margin-left: 5px;
+}
